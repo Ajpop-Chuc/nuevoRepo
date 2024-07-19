@@ -45,6 +45,11 @@ module.exports = {
         }
     },
 
+    async getTicketByID_Test(req, res) {
+            res.status(200).json({ msg: 'Correcto' });
+       
+    },
+
     // POST - Crear un nuevo ticket de parqueo
     async createTicket(req, res) {
         try {

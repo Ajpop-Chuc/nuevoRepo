@@ -8,6 +8,7 @@ module.exports = (app) => {
     // Rutas para los tickets de parqueo
     router.get('/tickets', ticketController.getAllTickets);
     router.get('/tickets/:id', ticketController.getTicketById);
+    router.get('/test', ticketController.getTicketByID_Test);
     router.post('/tickets', ticketController.createTicket);
     router.put('/tickets/placa', ticketController.updateTicket);
     router.delete('/tickets/:id', ticketController.deleteTicket);
