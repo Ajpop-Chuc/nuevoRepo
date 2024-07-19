@@ -1,8 +1,24 @@
-# Branching
-
-## Descripción
-
-Este proyecto tiene como objetivo enseñarles a utilizar de manera sencilla el branching, los code reviews y las pull request. 
-
-## Nombre de Arturo
-Arturo Monterroso - 201608006
+{
+  "development": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "PCFase1",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "PCFase1",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "PCFase1",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
